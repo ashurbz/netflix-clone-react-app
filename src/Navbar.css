@@ -7,7 +7,7 @@
     height: 80px;
     width: 100%;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg,rgba(0,0,0,1) 0% ,rgba(4, 4, 4, 0.507));
+    background: linear-gradient(180deg,rgba(0,0,0,1) 0% ,rgba(4, 4, 4, 0.77634803));
     color: white;
     display: flex;
     justify-content: space-around;

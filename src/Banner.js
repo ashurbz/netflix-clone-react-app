@@ -11,12 +11,12 @@ function Banner() {
             <h3>NETFLIX <small>ORIGINAL</small></h3>
             <h1>LOST IN SPACE</h1>
             <div className="button__div">
-                <div className="button1">
+                <button className="button1">Play
                     <PlayArrowIcon style={{fontSize:10}}></PlayArrowIcon>
-                </div>
-                <div className="button2">
+                </button>
+                <button className="button2"> My List
                     <AddIcon style={{fontSize:10}}></AddIcon>
-                </div>
+                </button>
 
             </div>
             <div className="intro__container">

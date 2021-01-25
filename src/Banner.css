@@ -31,3 +31,45 @@
     font-size: 15vh;
     font-weight: 700;
 }
+
+.button__div{
+    width: 100%;
+}
+
+.button__div>button{
+    background-color: rgba(255,255,255,0.109);
+    color: white;
+    border: 0;
+    position: absolute;
+    top: 52vh;
+    min-width: 10vw;
+    max-width: 15vw;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: .2s;
+}
+.button__div>.button1{
+    left: 5vw;
+}
+
+.button__div>.button2{
+    left: 15.5vw;
+}
+
+.button__div>button:focus{
+    outline: none;
+    transform: scale(1.05);
+}
+
+
+.intro__container{
+    position: absolute;
+    left: 5vw;
+    top: 58vh;
+    width: 22vw;
+}
+
+.intro{
+    color: white;
+    font-size: 10px;
+}
