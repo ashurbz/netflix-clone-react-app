@@ -34,3 +34,19 @@
     left: 100%;
     width: 275px;
 }
+
+.details__background__image{
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-position: center 10%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.details__area{
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 3;
+}
