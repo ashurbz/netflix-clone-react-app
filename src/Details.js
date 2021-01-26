@@ -26,9 +26,10 @@ function Details({title,image,videoID}) {
                     <div  className="details__description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur purus ut faucibus pulvinar. Urna molestie at elementum eu facilisis. Egestas sed tempus urna et pharetra pharetra. Enim nunc faucibus a pellentesque sit amet porttitor eget dolor. Diam phasellus vestibulum lorem sed risus ultricies tristique. Tincidunt dui ut ornare lectus. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Pharetra massa massa ultricies mi quis. Est ante in nibh mauris cursus.
                     </div>
-                </div>
-                <button className="trailerButton" onClick={handleClick}>Trailer</button>
+                    <button className="trailerButton" onClick={handleClick}>Trailer</button>
                 {TrailerButton ? <Trailer videoID={videoID}></Trailer> :null }
+                </div>
+                
             </div>
 
             

@@ -59,6 +59,7 @@
 
 .details__area__container{
     padding: 30px 70px;
+    padding-bottom: 5rem;
     color: wheat;
 }
 
@@ -83,8 +84,8 @@
     height: 30px;
     background-color: #C30913;
     display: flex;
-    margin-left: 68px;
-    margin-right: auto;
+   
+    margin-top: 1rem;
     /* margin-left: 40px; */
     align-items: center;
     justify-content: center;
@@ -97,4 +98,13 @@
 
 .trailerButton:hover{
     opacity: 1;
+}
+
+@media(max-width:690px){
+    .details__area__container{
+        padding: 30px 40px;
+        padding-bottom: 5rem;
+    }
+  
+
 }

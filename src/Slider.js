@@ -84,8 +84,9 @@ function Slider() {
     const breakPoints=[
         {width:1,itemsToShow:1},
         {width:500,itemsToShow:2},
-        {width:768,itemsToShow:3},
-        {width:1200,itemsToShow:4},
+        {width:900,itemsToShow:3},
+        {width:1400,itemsToShow:5},
+
     ]
 
     const[button,setbutton] = useState(false);
@@ -125,9 +126,9 @@ function Slider() {
             </Carousel>
 
             {button && 
-                <span >
+               
                     <Details title={movieClicks.title} image={movieClicks.imageBg} videoID={movieClicks.VideoID}>Item1</Details>
-                </span>
+               
             }
         </div>
     )
