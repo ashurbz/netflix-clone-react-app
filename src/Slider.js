@@ -1,5 +1,6 @@
 import React from 'react';
 import './Slider.css';
+import Card from './Card'
 import Carousel from 'react-elastic-carousel'
 
 const movies =[
@@ -76,10 +77,25 @@ const movies =[
   ]
 
 function slider() {
+    const breakPoints=[
+        {width:1,itemsToShow:1},
+        {width:500,itemsToShow:2},
+        {width:768,itemsToShow:3},
+        {width:1200,itemsToShow:4},
+    ]
     return (
         <div className="slider">
-            <Carousel>
-                <Card/>
+            <Carousel breakPoints={breakPoints}>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+
             </Carousel>
         </div>
     )
