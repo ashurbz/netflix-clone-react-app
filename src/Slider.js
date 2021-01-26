@@ -96,7 +96,7 @@ function Slider() {
  
   const handleClick = (i,event)=>{
     
-     
+   
       // to change the state of buttona
       if(State===i){
       setbutton(false);

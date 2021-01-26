@@ -10,9 +10,14 @@ function Trailer({videoID}) {
             autoplay:1
         }
     }
+
+    React.useEffect(() => {
+        setTimeout(window.scrollTo(0,10000),500);
+    }, [])
+   
     console.log(videoID)
     return (
-        <div>
+        <div style={{height:"50vh"}}>
             <YouTube className="video" videoId={videoID} opts={opts}/>
         </div>
     )

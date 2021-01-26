@@ -9,16 +9,21 @@ function Details({title,image,videoID}) {
     useEffect(() => {
        setTrailerButton(false)
     }, [videoID])
+    useEffect(() => {
+        setTimeout(window.scrollTo(0,10000),500);
+    }, [])
 
     const handleClick= ()=>{
         setTrailerButton(!TrailerButton)
+      
     }
    
     console.log(videoID)
+    
 
 
     return (
-        <div style={{backgroundImage:`url(${image})`}} className="details">
+        <div  style={{backgroundImage:`url(${image})`}} className="details">
           
             <div  className="details__area">
                 <div className="details__area__container">
