@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Banner from './Banner'
 import Navbar from './Navbar'
 import Slider from './Slider'
+import Details from './Details'
 
 
 
@@ -13,6 +14,7 @@ export class App extends Component {
         <Navbar/>
         <Banner/>
         <Slider/>
+        <Details/>
       </div>
     )
   }

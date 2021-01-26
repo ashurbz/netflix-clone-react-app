@@ -50,3 +50,44 @@
     height: 100%;
     z-index: 3;
 }
+
+.details__area__container{
+    padding: 30px 70px;
+    color: wheat;
+}
+
+.details__title{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    margin-right: auto;
+}
+
+.details__description{
+    font-size: 18px;
+    color: #999;
+    margin-top: 20px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.trailerButton{
+    width: 130px;
+    height: 30px;
+    background-color: #C30913;
+    display: flex;
+    margin-left: 70px;
+    margin-right: auto;
+    margin-left: 40px;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: white;
+    opacity: .7;
+
+}
+
+.trailerButton:hover{
+    opacity: 1;
+}

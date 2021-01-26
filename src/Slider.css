@@ -9,7 +9,7 @@
 /* height: 160px */
 .card{
     width: 290px;
-    height: 200px;    
+    height: 160px;    
     background-color:red;
     font-size: 30px;
     padding: 0;
@@ -36,4 +36,10 @@
 
 .sc-gKsewC{
     visibility: hidden;
+}
+
+.button3{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
 }
