@@ -11,7 +11,7 @@ const movies =[
       image: 'https://m.media-amazon.com/images/M/MV5BYTMzYTQ1NzAtOGY4OC00ZGM5LThiMmUtMzgzZjgzNzNjZjJmXkEyXkFqcGdeQXVyODk2ODI3MTU@._V1_.jpg',
       imageBg: 'https://wallpapercave.com/wp/wp4025675.png',
       title: 'Sacred Games',
-      VideoID:'AkUgf2jIPyI'
+      VideoID:'RWpuZXhCEkQ'
     },
     {
       id:2,
@@ -128,7 +128,7 @@ useEffect(() => {
 
             {button && movieClicks.map((movieClick,i)=>
                 <span key ={i}>
-                    <Details title={movieClick.title} image={movieClick.imageBg}>Item1</Details>
+                    <Details title={movieClick.title} image={movieClick.imageBg} VideoID={movieClick.VideoID}>Item1</Details>
                 </span>
             )}
         </div>
