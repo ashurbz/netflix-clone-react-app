@@ -107,9 +107,6 @@ function Slider() {
 
   }
 
-  const hey =()=>{
-
-  }
 
   const movieID = State;
   const movieClicks =  // storing the current array from movies into movieCLicks
