@@ -14,7 +14,7 @@ export class App extends Component {
         <Navbar/>
         <Banner/>
         <Slider/>
-        <Details/>
+      
       </div>
     )
   }

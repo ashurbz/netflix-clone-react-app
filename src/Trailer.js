@@ -2,7 +2,7 @@ import React from 'react'
 import YouTube from 'react-youtube';
 import './Trailer.css'
 
-function Trailer(videoID) {
+function Trailer({videoID}) {
     const opts ={
         height : '390',
         width : '640',
@@ -10,9 +10,10 @@ function Trailer(videoID) {
             autoplay:1
         }
     }
+    console.log(videoID)
     return (
         <div>
-            <YouTube className="video" videoId='RWpuZXhCEkQ' opts={opts}/>
+            <YouTube className="video" videoId={videoID} opts={opts}/>
         </div>
     )
 }

@@ -1,7 +1,11 @@
 .details{
     position: relative;
     height: 37vw;
-    margin-top: -40px;
+    margin-top: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 
 
@@ -49,6 +53,8 @@
     right: 0;
     height: 100%;
     z-index: 3;
+
+    background: linear-gradient(72deg, black 45%, transparent);
 }
 
 .details__area__container{
@@ -77,14 +83,15 @@
     height: 30px;
     background-color: #C30913;
     display: flex;
-    margin-left: 70px;
+    margin-left: 68px;
     margin-right: auto;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     align-items: center;
+    justify-content: center;
     outline: none;
     border: none;
     color: white;
-    opacity: .7;
+    opacity: .5;
 
 }
 

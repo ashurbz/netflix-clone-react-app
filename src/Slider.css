@@ -18,6 +18,7 @@
 .card__image{
     width: 100%;
     cursor: pointer;
+    height: 310px;
 }
  /* arrow button targeted */
 .lgksPe{
