@@ -15,7 +15,7 @@ function Banner() {
                     <PlayArrowIcon style={{fontSize:10}}></PlayArrowIcon>
                 </button>
                 <button className="button2"> My List
-                    <AddIcon style={{fontSize:10}}></AddIcon>
+                    <AddIcon style={{fontSize:15}}></AddIcon>
                 </button>
 
             </div>
