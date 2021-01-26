@@ -1,6 +1,10 @@
+import { VideocamOutlined } from '@material-ui/icons'
 import React, { Component } from 'react'
 import Banner from './Banner'
 import Navbar from './Navbar'
+import Slider from './Slider'
+
+
 
 export class App extends Component {
   render() {
@@ -8,6 +12,7 @@ export class App extends Component {
       <div className="app">
         <Navbar/>
         <Banner/>
+        <Slider/>
       </div>
     )
   }
