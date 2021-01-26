@@ -109,6 +109,13 @@ useEffect(() => {
   const hey =()=>{
 
   }
+
+  const movieID = State;
+  const movieClicks =[   // storing the current array from movies into movieCLicks
+    movies[movieID]
+  ]
+
+
     return (
         <div className="slider">
             <Carousel breakPoints={breakPoints}>
@@ -117,10 +124,13 @@ useEffect(() => {
                         <button className="button3" onClick={hey(),handleClick.bind(this,i)}><Card movie={movie} title = {movie.title} image = {movie.image}></Card></button>
                     </span>
                 )}
-                
-
-
             </Carousel>
+
+            {button && movieClicks.map((movieClick,i)=>
+                <span key ={i}>
+                    <Details title={movieClick.title} image={movieClick.imageBg}>Item1</Details>
+                </span>
+            )}
         </div>
     )
 }
