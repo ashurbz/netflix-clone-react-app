@@ -6,11 +6,34 @@
     width: 100%;
     top: 78%;
 }
-
+/* height: 160px */
 .card{
     width: 290px;
-    height: 160px;
+    height: 200px;    
     background-color:red;
     font-size: 30px;
     padding: 0;
+}
+
+.card__image{
+    width: 100%;
+    cursor: pointer;
+}
+ /* arrow button targeted */
+.lgksPe{
+    height: 0px !important;
+    width: 0px !important;
+}
+
+/* arrow buttons are targeted but with different class */
+
+.iLquPE:disabled{
+    height: 0px !important;
+    width: 0px !important;
+}
+
+/* purple dot */
+
+.sc-gKsewC{
+    visibility: hidden;
 }

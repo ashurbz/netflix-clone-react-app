@@ -96,6 +96,8 @@ function slider() {
                 <Card />
                 <Card />
 
+                <Details/>
+
             </Carousel>
         </div>
     )
